@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "AttributeError",
+  "error_message": "AttributeError: 'Collection' object has no attribute 'link'",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_harness/19_a1.py\", line 129, in <module>\n    build_tree(x, y, height, base_radius)\n    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"results/scripts/2/haiku_harness/19_a1.py\", line 92, in build_tree\n    make_object(f\"Trunk_{x:.1f}_{y:.1f}\", bm_t, trunk_mat,\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                location=(x, y, 0.0), rot_z=random.uniform(0, math.tau))\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"results/scripts/2/haiku_harness/19_a1.py\", line 50, in make_object\n    bpy.context.collection.link(obj)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'Collection' object has no attribute 'link'\n",
+  "checks": {},
+  "exec_s": 0.001,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

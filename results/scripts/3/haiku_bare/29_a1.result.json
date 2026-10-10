@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "RuntimeError",
+  "error_message": "RuntimeError: Error: Node type GeometryNodeTransformGeometry undefined\n",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/3/haiku_bare/29_a1.py\", line 104, in <module>\n    col_xform = nodes.new(\"GeometryNodeTransformGeometry\")\nRuntimeError: Error: Node type GeometryNodeTransformGeometry undefined\n\n",
+  "checks": {},
+  "exec_s": 0.002,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

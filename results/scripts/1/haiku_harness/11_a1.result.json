@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "TypeError",
+  "error_message": "TypeError: bpy_struct: item.attr = val: enum \"NISHITA\" not found in ('SINGLE_SCATTERING', 'MULTIPLE_SCATTERING', 'PREETHAM', 'HOSEK_WILKIE')",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/1/haiku_harness/11_a1.py\", line 38, in <module>\n    sky.sky_type = 'NISHITA'\n    ^^^^^^^^^^^^\nTypeError: bpy_struct: item.attr = val: enum \"NISHITA\" not found in ('SINGLE_SCATTERING', 'MULTIPLE_SCATTERING', 'PREETHAM', 'HOSEK_WILKIE')\n",
+  "checks": {},
+  "exec_s": 0.001,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

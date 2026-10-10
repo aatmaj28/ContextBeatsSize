@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "KeyError",
+  "error_message": "KeyError: 'bpy_prop_collection[key]: key \"Position\" not found'",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/1/haiku_harness/14_a1.py\", line 171, in <module>\n    wnt.links.new(tex_coord.outputs[\"Position\"], sep.inputs[\"Vector\"])\n                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\nKeyError: 'bpy_prop_collection[key]: key \"Position\" not found'\n",
+  "checks": {},
+  "exec_s": 0.024,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

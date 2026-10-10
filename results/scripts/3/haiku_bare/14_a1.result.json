@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "KeyError",
+  "error_message": "KeyError: 'bpy_prop_collection[key]: key \"Position\" not found'",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/3/haiku_bare/14_a1.py\", line 116, in <module>\n    wl.new(tex_coord.outputs[\"Position\"], sep.inputs[\"Vector\"])\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\nKeyError: 'bpy_prop_collection[key]: key \"Position\" not found'\n",
+  "checks": {},
+  "exec_s": 0.02,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

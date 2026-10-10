@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "gn_inputs": [
+      "SpiralStaircase/SpiralStaircase: Steps (NodeSocketInt)"
+    ]
+  },
+  "exec_s": 0.005,
+  "render": "results/renders/opus_harness/29.png",
+  "render_time_s": 0.992,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

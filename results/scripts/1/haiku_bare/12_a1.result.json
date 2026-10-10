@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "RuntimeError",
+  "error_message": "RuntimeError: Error: Node type CompositorNodeComposite undefined\n",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/1/haiku_bare/12_a1.py\", line 235, in <module>\n    comp = ctree.nodes.new(\"CompositorNodeComposite\")\nRuntimeError: Error: Node type CompositorNodeComposite undefined\n\n",
+  "checks": {},
+  "exec_s": 0.132,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "compositor_effects": [
+      "ShaderNodeTexNoise",
+      "ShaderNodeMix"
+    ]
+  },
+  "exec_s": 0.019,
+  "render": "results/renders/haiku_harness/20.png",
+  "render_time_s": 1.772,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "anim_moving_frame": 23
+  },
+  "exec_s": 0.003,
+  "render": "results/renders/opus_bare/30.png",
+  "render_time_s": 1.0,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

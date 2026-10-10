@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/3/opus_bare/29_a1.py", line 119, in <module>
+    mod[s_steps.identifier] = 24
+    ~~~^^^^^^^^^^^^^^^^^^^^
+TypeError: bpy_struct[key] = val: id properties not supported for this type

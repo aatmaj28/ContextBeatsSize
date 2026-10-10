@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_bare/9_a1.py", line 48, in <module>
+    floor = link(bpy.context.active_object)
+  File "results/scripts/2/haiku_bare/9_a1.py", line 34, in link
+    scene.collection.objects.link(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+RuntimeError: Error: Object 'Plane' already in collection 'Scene Collection'

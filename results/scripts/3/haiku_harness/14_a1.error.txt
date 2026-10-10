@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_harness/14_a1.py", line 209, in <module>
+    make_rock(idx, rx, ry, rs, st)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "results/scripts/3/haiku_harness/14_a1.py", line 180, in make_rock
+    bmesh.ops.create_icosphere(bm, subdivisions=2, diameter=2.0)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_icosphere: keyword "diameter" is invalid for this operator

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "world_extra_nodes": [
+      "ShaderNodeTexCoord",
+      "ShaderNodeSeparateXYZ",
+      "ShaderNodeValToRGB",
+      "ShaderNodeMapRange",
+      "ShaderNodeSeparateXYZ"
+    ]
+  },
+  "exec_s": 0.015,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

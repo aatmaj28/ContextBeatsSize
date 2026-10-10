@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "RuntimeError",
+  "error_message": "RuntimeError: Error: Object 'Plate' already in collection 'Scene Collection'\n",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_bare/13_a1.py\", line 157, in <module>\n    link(plate)\n    ~~~~^^^^^^^\n  File \"results/scripts/2/haiku_bare/13_a1.py\", line 43, in link\n    scene.collection.objects.link(obj)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^\nRuntimeError: Error: Object 'Plate' already in collection 'Scene Collection'\n\n",
+  "checks": {},
+  "exec_s": 0.022,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

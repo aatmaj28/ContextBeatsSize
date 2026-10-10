@@ -1,0 +1,6 @@
+anthropic==0.125.0
+groq==1.0.0
+python-dotenv==1.2.1
+pillow==11.3.0
+matplotlib==3.9.4
+imageio-ffmpeg==0.6.0

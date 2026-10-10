@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "AttributeError",
+  "error_message": "AttributeError: 'Collection' object has no attribute 'link'",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/1/haiku_harness/2_a1.py\", line 200, in <module>\n    add_light(\"KeyArea\", \"AREA\", (0.0, 1.0, 2.4), 250.0, color=(1.0, 0.97, 0.92),\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n              rot=(math.radians(15), 0, 0))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"results/scripts/1/haiku_harness/2_a1.py\", line 77, in add_light\n    bpy.context.collection.link(obj)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'Collection' object has no attribute 'link'\n",
+  "checks": {},
+  "exec_s": 0.022,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

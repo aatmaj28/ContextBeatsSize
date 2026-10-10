@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "results/scripts/1/haiku_harness/20_a1.py", line 119, in <module>
+    static_mat = make_static_material()
+  File "results/scripts/1/haiku_harness/20_a1.py", line 113, in make_static_material
+    noise.inputs["W"].default_value = random.uniform(0.0, 1000.0)
+    ~~~~~~~~~~~~^^^^^
+KeyError: 'bpy_prop_collection[key]: key "W" not found'

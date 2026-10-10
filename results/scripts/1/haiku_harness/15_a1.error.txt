@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/1/haiku_harness/15_a1.py", line 171, in <module>
+    comp_tree.links.new(coords.outputs["UV"], sub.inputs[0])
+                        ~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "UV" not found'

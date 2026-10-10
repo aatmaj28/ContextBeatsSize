@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_harness/20_a1.py", line 101, in <module>
+    add_driver(s_noise.inputs["W"], "frame * 13.7")
+               ~~~~~~~~~~~~~~^^^^^
+KeyError: 'bpy_prop_collection[key]: key "W" not found'

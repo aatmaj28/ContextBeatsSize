@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "TypeError",
+  "error_message": "TypeError: bpy_struct[key] = val: id properties not supported for this type",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/1/haiku_bare/23_a1.py\", line 95, in <module>\n    mod[density_id] = DENSITY_VALUE\n    ~~~^^^^^^^^^^^^\nTypeError: bpy_struct[key] = val: id properties not supported for this type\n",
+  "checks": {},
+  "exec_s": 0.002,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

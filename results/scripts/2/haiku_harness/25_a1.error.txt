@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_harness/25_a1.py", line 57, in <module>
+    scene.collection.objects.link(star)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+RuntimeError: Error: Object 'Star' already in collection 'Scene Collection'

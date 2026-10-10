@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "KeyError",
+  "error_message": "KeyError: 'bpy_prop_collection[key]: key \"Geometry\" not found'",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_bare/29_a1.py\", line 104, in <module>\n    links.new(mline.outputs['Geometry'], set_pos.inputs['Geometry'])\n              ~~~~~~~~~~~~~^^^^^^^^^^^^\nKeyError: 'bpy_prop_collection[key]: key \"Geometry\" not found'\n",
+  "checks": {},
+  "exec_s": 0.001,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

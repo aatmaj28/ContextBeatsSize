@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_bare/28_a1.py", line 99, in <module>
+    for fc in door.animation_data.action.fcurves:
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Action' object has no attribute 'fcurves'

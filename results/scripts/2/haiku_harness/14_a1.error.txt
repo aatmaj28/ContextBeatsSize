@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_harness/14_a1.py", line 152, in <module>
+    sand_obj = bmesh_to_object("Sand", bm, sand_mat)
+  File "results/scripts/2/haiku_harness/14_a1.py", line 35, in bmesh_to_object
+    return link_object(bpy.data.objects.new(name, mesh))
+  File "results/scripts/2/haiku_harness/14_a1.py", line 23, in link_object
+    scene.collection.link(obj)
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Collection' object has no attribute 'link'

@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "AttributeError",
+  "error_message": "AttributeError: Vector addition: (Vector + Euler) invalid type for this operation",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_bare/2_a1.py\", line 222, in <module>\n    fill.rotation_euler = Vector((0.9, 0.0, 0.5)).normalized() * 0 + (\n                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\n        Vector((0, 0, -1)).rotation_difference(Vector((-1.2, 2.0, -2.2)).normalized()).to_euler())\n        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nAttributeError: Vector addition: (Vector + Euler) invalid type for this operation\n",
+  "checks": {},
+  "exec_s": 0.018,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

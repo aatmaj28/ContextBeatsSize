@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "AttributeError",
+  "error_message": "AttributeError: 'Action' object has no attribute 'fcurves'",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_bare/28_a1.py\", line 99, in <module>\n    for fc in door.animation_data.action.fcurves:\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'Action' object has no attribute 'fcurves'\n",
+  "checks": {},
+  "exec_s": 0.002,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

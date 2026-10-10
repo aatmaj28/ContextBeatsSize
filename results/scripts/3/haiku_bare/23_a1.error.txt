@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_bare/23_a1.py", line 97, in <module>
+    mod[density_socket.identifier] = 40.0  # set density from the script
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: bpy_struct[key] = val: id properties not supported for this type

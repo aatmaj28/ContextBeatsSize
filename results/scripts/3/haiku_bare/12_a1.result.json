@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "AttributeError",
+  "error_message": "AttributeError: 'CompositorNodeGlare' object has no attribute 'glare_type'",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/3/haiku_bare/12_a1.py\", line 177, in <module>\n    glare.glare_type = 'FOG_GLOW'\n    ^^^^^^^^^^^^^^^^\nAttributeError: 'CompositorNodeGlare' object has no attribute 'glare_type'\n",
+  "checks": {},
+  "exec_s": 0.103,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

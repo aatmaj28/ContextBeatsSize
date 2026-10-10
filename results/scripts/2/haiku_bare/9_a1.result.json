@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "RuntimeError",
+  "error_message": "RuntimeError: Error: Object 'Plane' already in collection 'Scene Collection'\n",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_bare/9_a1.py\", line 48, in <module>\n    floor = link(bpy.context.active_object)\n  File \"results/scripts/2/haiku_bare/9_a1.py\", line 34, in link\n    scene.collection.objects.link(obj)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^\nRuntimeError: Error: Object 'Plane' already in collection 'Scene Collection'\n\n",
+  "checks": {},
+  "exec_s": 0.002,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

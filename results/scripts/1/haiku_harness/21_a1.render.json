@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "anim_moving_frame": 31
+  },
+  "exec_s": 0.01,
+  "render": "results/renders/haiku_harness/21.png",
+  "render_time_s": 0.96,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

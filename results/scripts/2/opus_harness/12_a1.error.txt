@@ -1,0 +1,1 @@
+Unsafe code rejected by the static check: line 124: use of '__import__' is not allowed

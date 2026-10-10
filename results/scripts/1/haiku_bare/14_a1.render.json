@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "world_extra_nodes": [
+      "ShaderNodeTexCoord",
+      "ShaderNodeSeparateXYZ",
+      "ShaderNodeValToRGB"
+    ]
+  },
+  "exec_s": 0.025,
+  "render": "results/renders/haiku_bare/14.png",
+  "render_time_s": 1.394,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

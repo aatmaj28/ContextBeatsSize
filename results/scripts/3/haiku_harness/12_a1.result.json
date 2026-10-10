@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "KeyError",
+  "error_message": "KeyError: 'faces'",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/3/haiku_harness/12_a1.py\", line 80, in <module>\n    for f in res[\"faces\"]:\n             ~~~^^^^^^^^^\nKeyError: 'faces'\n",
+  "checks": {},
+  "exec_s": 0.001,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

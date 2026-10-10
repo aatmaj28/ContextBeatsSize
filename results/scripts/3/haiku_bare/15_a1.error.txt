@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_bare/15_a1.py", line 205, in <module>
+    vignette_mix = nodes.new("CompositorNodeMixRGB")
+RuntimeError: Error: Node type CompositorNodeMixRGB undefined

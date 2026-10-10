@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/1/haiku_harness/11_a2.py", line 51, in <module>
+    sky.dust_density = 1.0
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'ShaderNodeTexSky' object has no attribute 'dust_density'. Did you mean: 'air_density'?

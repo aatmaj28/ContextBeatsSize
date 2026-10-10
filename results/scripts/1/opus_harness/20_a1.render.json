@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "compositor_effects": [
+      "ShaderNodeMix"
+    ]
+  },
+  "exec_s": 0.148,
+  "render": "results/renders/opus_harness/20.png",
+  "render_time_s": 3.309,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

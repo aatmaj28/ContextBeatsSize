@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "AttributeError",
+  "error_message": "AttributeError: Vector addition: (tuple + Vector) invalid type for this operation",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/1/haiku_harness/8_a1.py\", line 114, in <module>\n    v.co = Vector((v.co.x * random.uniform(0.8, 1.2),\n                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n                   v.co.y * random.uniform(0.8, 1.2),\n                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n                   v.co.z * random.uniform(0.5, 0.8)) + Vector((px, py, 0.0)))\n                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\nAttributeError: Vector addition: (tuple + Vector) invalid type for this operation\n",
+  "checks": {},
+  "exec_s": 0.002,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

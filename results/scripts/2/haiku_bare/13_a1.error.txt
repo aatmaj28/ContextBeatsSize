@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_bare/13_a1.py", line 157, in <module>
+    link(plate)
+    ~~~~^^^^^^^
+  File "results/scripts/2/haiku_bare/13_a1.py", line 43, in link
+    scene.collection.objects.link(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+RuntimeError: Error: Object 'Plate' already in collection 'Scene Collection'

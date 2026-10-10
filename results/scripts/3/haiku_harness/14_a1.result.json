@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "TypeError",
+  "error_message": "TypeError: create_icosphere: keyword \"diameter\" is invalid for this operator",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/3/haiku_harness/14_a1.py\", line 209, in <module>\n    make_rock(idx, rx, ry, rs, st)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"results/scripts/3/haiku_harness/14_a1.py\", line 180, in make_rock\n    bmesh.ops.create_icosphere(bm, subdivisions=2, diameter=2.0)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: create_icosphere: keyword \"diameter\" is invalid for this operator\n",
+  "checks": {},
+  "exec_s": 0.02,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

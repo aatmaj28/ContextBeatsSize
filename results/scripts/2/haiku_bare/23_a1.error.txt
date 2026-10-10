@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_bare/23_a1.py", line 63, in <module>
+    n_rand = add_node("GeometryNodeRandomValue", (-400, -800))
+  File "results/scripts/2/haiku_bare/23_a1.py", line 48, in add_node
+    n = nodes.new(type_name)
+RuntimeError: Error: Node type GeometryNodeRandomValue undefined

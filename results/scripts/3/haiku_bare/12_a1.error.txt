@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_bare/12_a1.py", line 177, in <module>
+    glare.glare_type = 'FOG_GLOW'
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'CompositorNodeGlare' object has no attribute 'glare_type'

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_bare/11_a1.py", line 97, in <module>
+    sky.sky_type = 'NISHITA'
+    ^^^^^^^^^^^^
+TypeError: bpy_struct: item.attr = val: enum "NISHITA" not found in ('SINGLE_SCATTERING', 'MULTIPLE_SCATTERING', 'PREETHAM', 'HOSEK_WILKIE')

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_bare/14_a1.py", line 116, in <module>
+    wl.new(tex_coord.outputs["Position"], sep.inputs["Vector"])
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "Position" not found'

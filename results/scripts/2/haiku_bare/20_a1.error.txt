@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_bare/20_a1.py", line 113, in <module>
+    noise.inputs["W"].default_value = random.uniform(0.0, 300.0)
+    ~~~~~~~~~~~~^^^^^
+KeyError: 'bpy_prop_collection[key]: key "W" not found'

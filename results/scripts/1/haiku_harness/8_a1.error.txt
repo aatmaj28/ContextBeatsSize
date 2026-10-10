@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "results/scripts/1/haiku_harness/8_a1.py", line 114, in <module>
+    v.co = Vector((v.co.x * random.uniform(0.8, 1.2),
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   v.co.y * random.uniform(0.8, 1.2),
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   v.co.z * random.uniform(0.5, 0.8)) + Vector((px, py, 0.0)))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+AttributeError: Vector addition: (tuple + Vector) invalid type for this operation

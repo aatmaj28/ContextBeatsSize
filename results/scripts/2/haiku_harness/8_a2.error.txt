@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_harness/8_a2.py", line 120, in <module>
+    mat = Matrix.LocRotScale(
+        loc,
+        (random.uniform(0, pi), random.uniform(0, pi), random.uniform(0, pi)),
+        (s * random.uniform(1.0, 1.6), s, s * random.uniform(0.5, 0.9)),
+    )
+ValueError: Matrix.LocRotScale(): rotation argument must be Matrix, Quaternion, Euler or None

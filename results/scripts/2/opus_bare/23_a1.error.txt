@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/opus_bare/23_a1.py", line 107, in <module>
+    mod[dens_sock.identifier] = 400.0
+    ~~~^^^^^^^^^^^^^^^^^^^^^^
+TypeError: bpy_struct[key] = val: id properties not supported for this type

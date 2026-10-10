@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_bare/2_a1.py", line 222, in <module>
+    fill.rotation_euler = Vector((0.9, 0.0, 0.5)).normalized() * 0 + (
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        Vector((0, 0, -1)).rotation_difference(Vector((-1.2, 2.0, -2.2)).normalized()).to_euler())
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AttributeError: Vector addition: (Vector + Euler) invalid type for this operation

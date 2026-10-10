@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_harness/29_a1.py", line 48, in <module>
+    step_xf = nodes.new("GeometryNodeTransformGeometry")
+RuntimeError: Error: Node type GeometryNodeTransformGeometry undefined

@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "ValueError",
+  "error_message": "ValueError: Matrix.LocRotScale(): rotation argument must be Matrix, Quaternion, Euler or None",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_harness/8_a2.py\", line 120, in <module>\n    mat = Matrix.LocRotScale(\n        loc,\n        (random.uniform(0, pi), random.uniform(0, pi), random.uniform(0, pi)),\n        (s * random.uniform(1.0, 1.6), s, s * random.uniform(0.5, 0.9)),\n    )\nValueError: Matrix.LocRotScale(): rotation argument must be Matrix, Quaternion, Euler or None\n",
+  "checks": {},
+  "exec_s": 0.004,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

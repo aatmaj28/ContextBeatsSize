@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/1/haiku_bare/23_a1.py", line 95, in <module>
+    mod[density_id] = DENSITY_VALUE
+    ~~~^^^^^^^^^^^^
+TypeError: bpy_struct[key] = val: id properties not supported for this type

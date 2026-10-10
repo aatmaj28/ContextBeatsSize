@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_harness/8_a1.py", line 92, in <module>
+    coll.objects.link(water)  # ensure linked (finish already links)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+RuntimeError: Error: Object 'Water' already in collection 'Scene Collection'

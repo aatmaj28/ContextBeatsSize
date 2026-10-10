@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "RuntimeError",
+  "error_message": "RuntimeError: Error: Object 'Rock' already in collection 'Scene Collection'\n",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/1/haiku_harness/16_a1.py\", line 82, in <module>\n    rock = make_rock()\n  File \"results/scripts/1/haiku_harness/16_a1.py\", line 79, in make_rock\n    return link(rock)\n  File \"results/scripts/1/haiku_harness/16_a1.py\", line 23, in link\n    collection.objects.link(obj)\n    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^\nRuntimeError: Error: Object 'Rock' already in collection 'Scene Collection'\n\n",
+  "checks": {},
+  "exec_s": 0.003,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

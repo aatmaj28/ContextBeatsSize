@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_bare/27_a1.py", line 99, in <module>
+    mod[size_identifier] = GRID_SIZE
+    ~~~^^^^^^^^^^^^^^^^^
+TypeError: bpy_struct[key] = val: id properties not supported for this type

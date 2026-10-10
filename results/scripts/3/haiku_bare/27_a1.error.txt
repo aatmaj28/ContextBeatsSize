@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_bare/27_a1.py", line 92, in <module>
+    mod[grid_size_socket.identifier] = 10
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: bpy_struct[key] = val: id properties not supported for this type

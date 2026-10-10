@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "StopIteration",
+  "error_message": "StopIteration: ",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_harness/29_a1.py\", line 46, in <module>\n    gin = next(n for n in tree.nodes if n.type == 'GROUP_INPUT')\nStopIteration\n",
+  "checks": {},
+  "exec_s": 0.001,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

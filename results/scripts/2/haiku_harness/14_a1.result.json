@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "AttributeError",
+  "error_message": "AttributeError: 'Collection' object has no attribute 'link'",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_harness/14_a1.py\", line 152, in <module>\n    sand_obj = bmesh_to_object(\"Sand\", bm, sand_mat)\n  File \"results/scripts/2/haiku_harness/14_a1.py\", line 35, in bmesh_to_object\n    return link_object(bpy.data.objects.new(name, mesh))\n  File \"results/scripts/2/haiku_harness/14_a1.py\", line 23, in link_object\n    scene.collection.link(obj)\n    ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'Collection' object has no attribute 'link'\n",
+  "checks": {},
+  "exec_s": 0.013,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

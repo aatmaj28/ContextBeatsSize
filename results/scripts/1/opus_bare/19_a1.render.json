@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "world_extra_nodes": [
+      "ShaderNodeVolumePrincipled"
+    ]
+  },
+  "exec_s": 2.722,
+  "render": "results/renders/opus_bare/19.png",
+  "render_time_s": 3.753,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

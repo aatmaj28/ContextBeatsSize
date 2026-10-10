@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_bare/12_a1.py", line 67, in <module>
+    for f in res["faces"]:
+             ~~~^^^^^^^^^
+KeyError: 'faces'

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_bare/30_a1.py", line 37, in <module>
+    old_easing = prefs.keyframe_new_easing
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'PreferencesEdit' object has no attribute 'keyframe_new_easing'

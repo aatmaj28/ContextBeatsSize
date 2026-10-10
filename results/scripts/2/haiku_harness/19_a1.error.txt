@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_harness/19_a1.py", line 129, in <module>
+    build_tree(x, y, height, base_radius)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "results/scripts/2/haiku_harness/19_a1.py", line 92, in build_tree
+    make_object(f"Trunk_{x:.1f}_{y:.1f}", bm_t, trunk_mat,
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                location=(x, y, 0.0), rot_z=random.uniform(0, math.tau))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "results/scripts/2/haiku_harness/19_a1.py", line 50, in make_object
+    bpy.context.collection.link(obj)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Collection' object has no attribute 'link'

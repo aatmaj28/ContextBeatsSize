@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "results/scripts/2/haiku_harness/29_a1.py", line 46, in <module>
+    gin = next(n for n in tree.nodes if n.type == 'GROUP_INPUT')
+StopIteration

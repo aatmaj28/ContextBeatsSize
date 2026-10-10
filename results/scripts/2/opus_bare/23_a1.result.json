@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "TypeError",
+  "error_message": "TypeError: bpy_struct[key] = val: id properties not supported for this type",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/opus_bare/23_a1.py\", line 107, in <module>\n    mod[dens_sock.identifier] = 400.0\n    ~~~^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bpy_struct[key] = val: id properties not supported for this type\n",
+  "checks": {},
+  "exec_s": 0.017,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

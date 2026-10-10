@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "gn_inputs": [
+      "CubeGrid/CubeGrid: Grid Size (NodeSocketInt)",
+      "CubeGrid/CubeGrid: Spacing (NodeSocketFloat)"
+    ]
+  },
+  "exec_s": 0.002,
+  "render": "results/renders/opus_harness/27.png",
+  "render_time_s": 1.353,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

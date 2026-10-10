@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_harness/1_a1.py", line 121, in <module>
+    stone = make_obj(f"Stone{i}", make_stone_builder(s), mat_stone)
+  File "results/scripts/3/haiku_harness/1_a1.py", line 32, in make_obj
+    build_fn(bm)
+    ~~~~~~~~^^^^
+  File "results/scripts/3/haiku_harness/1_a1.py", line 108, in build
+    bmesh.ops.create_icosphere(bm, subdivisions=1, diameter=radius * 2)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_icosphere: keyword "diameter" is invalid for this operator

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "results/scripts/1/haiku_bare/12_a1.py", line 235, in <module>
+    comp = ctree.nodes.new("CompositorNodeComposite")
+RuntimeError: Error: Node type CompositorNodeComposite undefined

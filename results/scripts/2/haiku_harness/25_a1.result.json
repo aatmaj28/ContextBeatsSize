@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "RuntimeError",
+  "error_message": "RuntimeError: Error: Object 'Star' already in collection 'Scene Collection'\n",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/2/haiku_harness/25_a1.py\", line 57, in <module>\n    scene.collection.objects.link(star)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\nRuntimeError: Error: Object 'Star' already in collection 'Scene Collection'\n\n",
+  "checks": {},
+  "exec_s": 0.008,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

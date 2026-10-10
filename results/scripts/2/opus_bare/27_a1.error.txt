@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/2/opus_bare/27_a1.py", line 74, in <module>
+    mod[sock_size.identifier] = GRID_SIZE
+    ~~~^^^^^^^^^^^^^^^^^^^^^^
+TypeError: bpy_struct[key] = val: id properties not supported for this type

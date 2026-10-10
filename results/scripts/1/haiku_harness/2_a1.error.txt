@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "results/scripts/1/haiku_harness/2_a1.py", line 200, in <module>
+    add_light("KeyArea", "AREA", (0.0, 1.0, 2.4), 250.0, color=(1.0, 0.97, 0.92),
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              rot=(math.radians(15), 0, 0))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "results/scripts/1/haiku_harness/2_a1.py", line 77, in add_light
+    bpy.context.collection.link(obj)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Collection' object has no attribute 'link'

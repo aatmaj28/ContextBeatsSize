@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_harness/12_a1.py", line 80, in <module>
+    for f in res["faces"]:
+             ~~~^^^^^^^^^
+KeyError: 'faces'

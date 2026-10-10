@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+.DS_Store
+results_smoke/
+results/race_preview/
+results/selftest/

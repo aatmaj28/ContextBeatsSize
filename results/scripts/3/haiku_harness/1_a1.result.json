@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "TypeError",
+  "error_message": "TypeError: create_icosphere: keyword \"diameter\" is invalid for this operator",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/3/haiku_harness/1_a1.py\", line 121, in <module>\n    stone = make_obj(f\"Stone{i}\", make_stone_builder(s), mat_stone)\n  File \"results/scripts/3/haiku_harness/1_a1.py\", line 32, in make_obj\n    build_fn(bm)\n    ~~~~~~~~^^^^\n  File \"results/scripts/3/haiku_harness/1_a1.py\", line 108, in build\n    bmesh.ops.create_icosphere(bm, subdivisions=1, diameter=radius * 2)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: create_icosphere: keyword \"diameter\" is invalid for this operator\n",
+  "checks": {},
+  "exec_s": 0.002,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

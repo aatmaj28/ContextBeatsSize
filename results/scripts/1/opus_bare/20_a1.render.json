@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "compositor_effects": [
+      "CompositorNodeGlare",
+      "ShaderNodeTexNoise",
+      "ShaderNodeMix"
+    ]
+  },
+  "exec_s": 0.036,
+  "render": "results/renders/opus_bare/20.png",
+  "render_time_s": 4.129,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

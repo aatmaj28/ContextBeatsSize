@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "results/scripts/3/haiku_bare/8_a1.py", line 116, in <module>
+    collection.objects.link(rock)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+RuntimeError: Error: Object 'Icosphere' already in collection 'Scene Collection'

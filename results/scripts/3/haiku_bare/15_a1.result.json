@@ -1,0 +1,13 @@
+{
+  "passed": false,
+  "stage": "exec",
+  "error_type": "RuntimeError",
+  "error_message": "RuntimeError: Error: Node type CompositorNodeMixRGB undefined\n",
+  "traceback": "Traceback (most recent call last):\n  File \"results/scripts/3/haiku_bare/15_a1.py\", line 205, in <module>\n    vignette_mix = nodes.new(\"CompositorNodeMixRGB\")\nRuntimeError: Error: Node type CompositorNodeMixRGB undefined\n\n",
+  "checks": {},
+  "exec_s": 0.003,
+  "render": null,
+  "render_time_s": null,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}

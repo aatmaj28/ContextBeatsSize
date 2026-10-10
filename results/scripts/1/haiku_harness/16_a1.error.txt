@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "results/scripts/1/haiku_harness/16_a1.py", line 82, in <module>
+    rock = make_rock()
+  File "results/scripts/1/haiku_harness/16_a1.py", line 79, in make_rock
+    return link(rock)
+  File "results/scripts/1/haiku_harness/16_a1.py", line 23, in link
+    collection.objects.link(obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+RuntimeError: Error: Object 'Rock' already in collection 'Scene Collection'

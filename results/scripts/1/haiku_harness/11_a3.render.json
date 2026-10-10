@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "stage": "done",
+  "error_type": null,
+  "error_message": null,
+  "traceback": null,
+  "checks": {
+    "world_extra_nodes": [
+      "ShaderNodeTexSky"
+    ]
+  },
+  "exec_s": 0.098,
+  "render": "results/renders/haiku_harness/11.png",
+  "render_time_s": 2.083,
+  "render_error": null,
+  "blender_version": "5.2.2 LTS"
+}
